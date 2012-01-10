@@ -14,4 +14,11 @@ public class OurKarelProgram extends Karel {
 		putBeeper();
 		move();
 	}
+	
+	private void turnRight() {
+		turnLeft();
+		turnLeft();
+		turnLeft();
+	}
+	}
 }
