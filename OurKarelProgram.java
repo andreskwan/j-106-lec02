@@ -7,9 +7,7 @@ public class OurKarelProgram extends Karel {
 		move();
 		turnLeft();
 		move();
-		turnLeft();
-		turnLeft();
-		turnLeft();
+		turnRight();
 		move();
 		putBeeper();
 		move();
@@ -19,6 +17,5 @@ public class OurKarelProgram extends Karel {
 		turnLeft();
 		turnLeft();
 		turnLeft();
-	}
 	}
 }
