@@ -18,5 +18,6 @@ public class HurdleJumpingKarel extends SuperKarel {
 		while (??) {
 			move();
 		}
+		turnRight();
 	}
 }
