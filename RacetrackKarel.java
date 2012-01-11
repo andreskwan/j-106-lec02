@@ -9,8 +9,8 @@ public class RacetrackKarel extends Karel {
 	
 	/* Has Karel run one stretch of the race.
 	 * 
-	 * Precondition: Karel is at the beginning of one stretch of
-	 *               the race.
+	 * Precondition:  Karel is at the beginning of one stretch of
+	 *                the race.
 	 * Postcondition: Karel is at the end of that stretch and has
 	 *                turned to the left.
 	 */
