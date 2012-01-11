@@ -1,6 +1,12 @@
 import stanford.karel.*;
 
 public class OurKarelProgram extends Karel {
+	private void turnRight() {
+		turnLeft();
+		turnLeft();
+		turnLeft();
+	}
+	
 	public void run() {
 		move();
 		pickBeeper();
@@ -11,11 +17,5 @@ public class OurKarelProgram extends Karel {
 		move();
 		putBeeper();
 		move();
-	}
-	
-	private void turnRight() {
-		turnLeft();
-		turnLeft();
-		turnLeft();
 	}
 }
