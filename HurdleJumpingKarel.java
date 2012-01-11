@@ -15,7 +15,7 @@ public class HurdleJumpingKarel extends SuperKarel {
 	
 	private void climbHurdle() {
 		turnLeft();
-		while (??) {
+		while (rightIsBlocked()) {
 			move();
 		}
 		turnRight();
