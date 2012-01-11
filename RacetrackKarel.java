@@ -16,9 +16,9 @@ public class RacetrackKarel extends Karel {
 	 *                turned to the left.
 	 */
 	private void runOneStretch() {
-		move();
-		move();
-		move();
+		for (int i = 0; i < 3; i++) {
+			move();
+		}
 		turnLeft();
 	}
 }
