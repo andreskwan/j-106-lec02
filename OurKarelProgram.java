@@ -1,13 +1,15 @@
 import stanford.karel.*;
 
-public class OurKarelProgram extends SuperKarel {
+public class OurKarelProgram extends Karel {
 	public void run() {
 		move();
 		pickBeeper();
 		move();
 		turnLeft();
 		move();
-		turnRight();
+		turnLeft();
+		turnLeft();
+		turnLeft();
 		move();
 		putBeeper();
 		move();
