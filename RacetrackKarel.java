@@ -8,7 +8,7 @@ public class RacetrackKarel extends Karel {
 	}
 	
 	private void runOneLength() {
-		for (int i = 0; i < 3; i++) {
+		while (frontIsClear()) {
 			move();
 		}
 		turnLeft();
