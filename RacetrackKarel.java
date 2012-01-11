@@ -2,7 +2,7 @@ import stanford.karel.*;
 
 public class RacetrackKarel extends Karel {
 	public void run() {
-		while (frontIsClear()) {
+		for (int i = 0; i < 4; i++) {
 			runOneStretch();
 		}
 	}
@@ -15,7 +15,7 @@ public class RacetrackKarel extends Karel {
 	 *                turned to the left.
 	 */
 	private void runOneStretch() {
-		for (int i = 0; i < 3; i++) {
+		while (frontIsClear()) {
 			move();
 		}
 		turnLeft();
