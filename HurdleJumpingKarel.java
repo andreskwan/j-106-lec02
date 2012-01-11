@@ -38,7 +38,7 @@ public class HurdleJumpingKarel extends SuperKarel {
 	/* Makes Karel descend to the bottom of a single hurdle.
 	 * 
 	 * Precondition:  Karel is at the top of the hurdle, facing East.
-	 * Postcondition: Karel is at the bottom of the hurdle, facing West.
+	 * Postcondition: Karel is at the bottom of the hurdle, facing East.
 	 */
 	private void descendHurdle() {
 		turnRight();
