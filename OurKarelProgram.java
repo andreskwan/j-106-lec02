@@ -18,4 +18,9 @@ public class OurKarelProgram extends Karel {
 		turnLeft();
 		turnLeft();
 	}
+	
+	private void turnAround() {	
+		turnLeft();
+		turnLeft();
+	}
 }
