@@ -7,13 +7,13 @@ public class OurKarelProgram extends Karel {
 		move();
 		turnLeft();
 		move();
-		juggleCows();
+		turnRight();
 		move();
 		putBeeper();
 		move();
 	}
 	
-	private void juggleCows() {
+	private void turnRight() {
 		turnLeft();
 		turnLeft();
 		turnLeft();
