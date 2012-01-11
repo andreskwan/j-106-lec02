@@ -10,7 +10,6 @@ public class RacetrackKarel extends Karel {
 	private void runOneStretch() {
 		while (frontIsClear()) {
 			move();
-			move();
 		}
 		turnLeft();
 	}
