@@ -6,4 +6,10 @@ public class HurdleJumpingKarel extends SuperKarel {
 			jumpHurdle();
 		}
 	}
+	
+	private void jumpHurdle() {
+		climbHurdle();
+		move();
+		descendHurdle();
+	}
 }
