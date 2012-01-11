@@ -20,7 +20,7 @@ public class OurKarelProgram extends Karel {
 	}
 	
 	private void turnAround() {	
-		turnLeft();
-		turnLeft();
+		turnRight();
+		turnRight();
 	}
 }
