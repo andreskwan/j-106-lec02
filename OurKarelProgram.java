@@ -12,15 +12,4 @@ public class OurKarelProgram extends SuperKarel {
 		putBeeper();
 		move();
 	}
-	
-	private void turnRight() {
-		turnLeft();
-		turnLeft();
-		turnLeft();
-	}
-	
-	private void turnAround() {	
-		turnLeft();
-		turnLeft();
-	}
 }
