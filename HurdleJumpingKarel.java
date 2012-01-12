@@ -20,4 +20,8 @@ public class HurdleJumpingKarel extends SuperKarel {
 		}
 		turnRight();
 	}
+	
+	private void descendHurdle() {
+		turnRight();
+	}
 }
